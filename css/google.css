@@ -52,12 +52,16 @@ header nav .nav-right-section{
     background-size: contain;
     width: 2.5rem;
     height: 2.5rem;
-  
-}
-
+  }
+  .menu-icon:hover{
+      cursor: pointer;
+  }
 .menu-image img{
     margin-left: 1rem;
     border-radius: 50%;
+}
+.menu-image {
+    box-shadow: 0.1rem;
 }
 
 main {
@@ -97,3 +101,53 @@ main .main-input input{
     height: 4rem;
     outline: none;
 }
+
+.main-input-container:hover {
+    box-shadow: 0 0.1rem 0.6rem 0 #20212447;
+    border-color: #dfe1e500;
+}
+
+main .main-input .search-icon{
+    background-image:url("https://cdn0.iconfinder.com/data/icons/google-material-design-3-0/48/ic_search_48px-512.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 1.8rem;
+    height: 1.8rem;
+}
+
+main .main-input .micro-icon{
+    background-image:url("https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/726px-Google_mic.svg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 1.8rem;
+    height: 1.8rem;
+    cursor:pointer
+}
+
+ .main-buttons {
+     width: 53rem;
+     margin: 0 auto; 
+ }
+
+ main .main-buttons div{
+     display: inline-block;
+ }
+
+ main .main-buttons button{
+     height: 3.6rem;
+     background-color: #f2f2f2;
+     border: 0;
+     font-size: 1.4rem;
+     color: #5f6368;
+     border-radius: 0.5rem;
+     padding: 0 1.5rem;
+     margin-right: 1.5rem;
+ }
+ main .main-buttons button:hover{
+     border: 0.1rem solid #c6c6c6;
+    box-shadow: 0 0.1rem 0.1rem#000001;
+     color: #222  ;
+ }
+ 
